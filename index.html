@@ -1,24 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-    crossorigin="anonymous"
-  />
-  <link rel="stylesheet" href="style.css">
-    <title>Mueseum of Hashiras</title>
-</head>
-<body>
-    
-   
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Museum of Hashiras</title>
+  </head>
+  <body>
+    <nav
+      id="mainNavbar"
+      class="navbar navbar-dark navbar-expand-md py-0 fixed-top"
+    >
+      <a class="navbar-brand" href="#">HASHIRAS</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"
+              >Current Hashiras</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Former Hashiras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Upcoming Hashiras?</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
+    <section class="conatiner-fluid px-0 mt-0 pt-0">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div
+            id="headingGroup"
+            class="text-white text-center d-none d-lg-block mt-5"
+          >
+            <h1 class="">MUSEUM<span>/</span>OF<span>/</span>HASHIRAS</h1>
+            <h1 class="">MUSEUM<span>/</span>OF<span>/</span>HASHIRAS</h1>
+            <h1 class="">MUSEUM<span>/</span>OF<span>/</span>HASHIRAS</h1>
+            <h1 class="">MUSEUM<span>/</span>OF<span>/</span>HASHIRAS</h1>
+            <h1 class="">MUSEUM<span>/</span>OF<span>/</span>HASHIRAS</h1>
+            <h1 class="">MUSEUM<span>/</span>OF<span>/</span>HASHIRAS</h1>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img src="imgs/currHashira.jpg" alt="currHashira" class="img-fluid" />
+        </div>
+      </div>
+    </section>
 
-
+    <section class="conatiner-fluid px-0">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="imgs/gyomie.jpg" class="img-fluid" alt="gyomie" />
+        </div>
+        <div class="col-md-6 text-center">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8">
+                <h2>Gyomie Himejima</h2>
+          <h3>Stone Breathing</h3>
+          <p class="lead">
+            Gyomei Himejima (悲ひ鳴め嶼じま 行ぎょう冥めい Himejima Gyōmei?) is
+            a major supporting character of Demon Slayer: Kimetsu no Yaiba. He
+            is a Demon Slayer of the Demon Slayer Corps and the current Stone
+            Hashira (岩いわ柱ばしら Iwa Bashira?). Gyomei also serves as the
+            mentor of Genya Shinazugawa.
+          </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
@@ -35,5 +112,5 @@
       integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
       crossorigin="anonymous"
     ></script>
-</body>
+  </body>
 </html>
